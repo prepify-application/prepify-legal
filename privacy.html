@@ -14,10 +14,11 @@
 </head>
 <body>
 <h1>Prepify Privacy Policy</h1>
-<p class="muted">Effective date: June 12, 2026</p>
+<p class="muted">Effective date: July 3, 2026</p>
 
-<p>Prepify ("the app", "we") is a nutrition tracking and meal-planning app. This
-policy explains what data we collect, why, and what your rights are. The short
+<p>Prepify ("the app", "we") is a health and self-improvement app: nutrition
+tracking, AI meal and workout planning, habit tracking and to-dos. This policy
+explains what data we collect, why, and what your rights are. The short
 version: we collect what the app needs to work, we don't sell your data, and
 you can delete everything yourself at any time from inside the app.</p>
 
@@ -27,17 +28,25 @@ you can delete everything yourself at any time from inside the app.</p>
   <tr><td>Email address and password (or your Google/Apple account identity)</td><td>To create and secure your account</td></tr>
   <tr><td>Profile details: name, age, sex, height, weight, goal weight, activity level, goals</td><td>To calculate your personal calorie and macro targets</td></tr>
   <tr><td>Dietary requirements (e.g. allergies, halal, vegan) including free-text notes</td><td>To generate meal plans that respect your requirements</td></tr>
+  <tr><td>Training profile: experience level, training days per week, session length, available equipment, injury areas and free-text injury notes, training goal</td><td>To generate workout plans that fit your schedule and equipment and avoid exercises that conflict with the injuries you report</td></tr>
   <tr><td>Food diary entries, saved meals, weight log, generated meal plans</td><td>This is the app's core function — tracking what you eat and plan</td></tr>
+  <tr><td>Generated workout plans and your workout logs (sessions, exercises completed, and any sets, reps and weights you choose to record)</td><td>To show your training week and track your progress</td></tr>
+  <tr><td>Habits you add (including the names of custom habits), your completion and skip history, and any reminder times you set</td><td>To track your habits, streaks and reminders</td></tr>
+  <tr><td>Tasks: title, description, due date and reminder time</td><td>To keep your to-do list and remind you about it</td></tr>
   <tr><td>Barcodes you scan</td><td>Sent to the OpenFoodFacts database to look up nutrition info. We do not store camera images; the camera is used only live, on your device, to read the barcode.</td></tr>
   <tr><td>Subscription status</td><td>To know whether Premium features are unlocked</td></tr>
 </table>
 <p>We do <strong>not</strong> collect your precise location, contacts, or photos,
-and we do not sell personal data to anyone. The free tier shows ads (banner and
+and we do not sell personal data to anyone. Habit and task reminders are
+<strong>local notifications scheduled on your device</strong> — we do not send
+push notifications through our servers. App preferences such as light/dark
+theme are stored only on your device. The free tier shows ads (banner and
 occasional full-screen) served by Google AdMob (see section 3); Premium
 subscribers see no ads.</p>
 
 <h2>2. Health-related data</h2>
-<p>Your weight, goals, dietary requirements and food logs are health-related
+<p>Your weight, goals, dietary requirements, food logs, training profile —
+including any injuries you report — and workout logs are health-related
 information. We treat them as sensitive: they are stored with row-level
 security so only your authenticated account can read them, and they are used
 solely to provide the app's features described above.</p>
@@ -46,7 +55,7 @@ solely to provide the app's features described above.</p>
 <table>
   <tr><th>Service</th><th>Role</th></tr>
   <tr><td>Supabase</td><td>Hosts our database and authentication. All your app data lives here.</td></tr>
-  <tr><td>Google Gemini API</td><td>Generates your weekly meal plan. We send only your nutrition targets, meals-per-day preference and dietary requirements — never your name, email or account identity.</td></tr>
+  <tr><td>Google Gemini API</td><td>Generates your weekly meal and workout plans. For meal plans we send your nutrition targets, meals-per-day preference and dietary requirements; for workout plans we send your training profile, including your injury notes. We never send your name, email or account identity.</td></tr>
   <tr><td>OpenFoodFacts</td><td>Receives the barcode number you scan and returns the product's nutrition info.</td></tr>
   <tr><td>RevenueCat, Apple App Store / Google Play</td><td>Process subscription purchases. We never see your payment card details.</td></tr>
   <tr><td>Google AdMob</td><td>Serves ads (banner and occasional full-screen) to free-tier users only. AdMob may use a device advertising identifier; where required (e.g. EU/UK), you are shown a consent form and can choose non-personalised ads. Premium removes ads entirely.</td></tr>
@@ -54,8 +63,10 @@ solely to provide the app's features described above.</p>
 
 <h2>4. How long we keep data</h2>
 <p>For as long as your account exists. When you delete your account (More →
-Delete Account), your profile, diary, weight logs, saved meals, meal plans and
-authentication record are permanently erased immediately.</p>
+Delete Account), your profile, diary, weight logs, saved meals, meal plans,
+training profile, workout plans and logs, habits, tasks and authentication
+record are permanently erased immediately. Reminders scheduled on your device
+are cancelled by the app when you sign out or delete your account.</p>
 
 <h2>5. Your rights</h2>
 <p>Depending on where you live (e.g. GDPR in the EU/UK, CCPA in California),
